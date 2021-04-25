@@ -1,8 +1,13 @@
 # precip_cluster
 
-A code suite to calculate precipitation clusters and their distribution on a power-law plot. 
 Running this code together with data downloaded from this [link](https://www.dropbox.com/sh/c4faexb4dax40xz/AABPnFfP6Tm9IIimn9T5VzwXa?dl=0) 
 reproduces Fig. 2 in [O'Gorman et al, 2021](https://royalsocietypublishing.org/doi/10.1098/rsta.2019.0543). 
+
+The code takes in gridded precipitation data in three earth-system simulations of different complexities. 
+It plots a probability distribution of all precipitation instances in the left panel. 
+It finds grid points that are connected by nearest-neightbor bonds as clusters and plot the distribution 
+of such clusters on a log-log plot in the right panel. We see that the precipitation clusters follow power-law 
+distributions. 
 
 ## How to run: 
 
